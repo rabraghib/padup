@@ -3,7 +3,9 @@
   "version": "1.0.1",
   "description": "Lightweight css framework for rapidly and easily build nice looking user interfaces",
   "main": "scss/padup.scss",
-  "scripts": {},
+  "scripts": {
+    "build": "node build/build-padup.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rabraghib/ngaox.git"
@@ -21,5 +23,12 @@
   "bugs": {
     "url": "https://github.com/rabraghib/ngaox/issues"
   },
-  "homepage": "https://github.com/rabraghib/ngaox#readme"
+  "homepage": "https://github.com/rabraghib/ngaox#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "clean-css": "^5.1.5",
+    "fs-extra": "^10.0.0",
+    "postcss": "^8.3.11",
+    "sass": "^1.34.2"
+  }
 }
