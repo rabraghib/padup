@@ -1,6 +1,6 @@
 # Ngaox PadUp
 
-`@ngaox/padup` is lightweight css framework for rapidly and easily build nice looking user interfaces.
+`@ngaox/padup` is lightweight css library for rapidly and easily build nice looking user interfaces.
 
 ---
 
